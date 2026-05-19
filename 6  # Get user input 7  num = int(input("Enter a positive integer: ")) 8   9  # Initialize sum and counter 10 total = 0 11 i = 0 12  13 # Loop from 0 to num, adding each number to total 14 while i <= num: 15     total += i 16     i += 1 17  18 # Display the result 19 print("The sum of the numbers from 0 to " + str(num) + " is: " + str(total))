@@ -1,0 +1,16 @@
+# Unit3-11: While Loops - Times Table
+# Author: Leonardo Loya-Malfavon
+6  # Get user input
+7  num = int(input("Enter a positive integer: "))
+8  
+9  # Initialize sum and counter
+10 total = 0
+11 i = 0
+12 
+13 # Loop from 0 to num, adding each number to total
+14 while i <= num:
+15     total += i
+16     i += 1
+17 
+18 # Display the result
+19 print("The sum of the numbers from 0 to " + str(num) + " is: " + str(total))
